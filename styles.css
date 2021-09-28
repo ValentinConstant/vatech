@@ -1,0 +1,173 @@
+@media screen and (min-width: 800px)
+{
+    html {
+        height: 100%;
+    }
+    body {
+        text-align: center; 
+        background: linear-gradient(black, gray); 
+        background-repeat: repeat; 
+        height: 100%; 
+        width: 100%;
+        margin:0px;
+    }
+    
+    #bon {
+        background-color: transparent;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 300px;
+        height: 30px;
+        border:solid 2px #ccc;
+        border-radius: 40px;
+        font-family: 'Montserrat';
+        font-weight: 300;  
+        }    /* Rédigez vos propriétés CSS ici */
+    
+    #bop {
+        font-family: 'Montserrat';
+        color: white;
+    }
+        
+    .form-control{
+        background-color: transparent;
+        width: 300px;
+        height: 30px;
+        text-align: center;
+        font-size: 15px;
+        margin: 10px auto;
+        border:solid 1px #ccc;
+        border-radius: 40px;
+        border-color: #000;
+        color: #fff;
+    }
+    .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: white;
+      opacity: 1;
+      font-family: 'Montserrat';
+      font-weight: 300;  
+    }
+
+    
+#question {
+    font-family: 'Montserrat';
+     font-weight: bold;
+      margin-top: 30px;
+    }
+    
+    #register{
+    font-family: 'Montserrat'; font-weight: bold; font-size:15px; color: rgb(255,0,0); text-decoration: none;
+    }
+    
+    #icon_fb{
+    margin-top: 20px; margin-bottom: 20px; border-radius: 5px;
+    }
+    
+    #cgu{
+       font: inherit ;
+       font-family: 'Montserrat'; 
+       font-weight: bold; 
+       margin:10px;
+      font-size: 10px; 
+      color: #fff;
+    }
+}
+
+
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+
+html {
+    height: 100%;
+}
+body {
+    text-align: center; 
+    background: linear-gradient(black, gray); 
+    background-repeat: repeat; 
+    height: 100%; 
+    width: 100%;
+    margin:0px;
+}
+
+#bon {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border:solid 2px #ccc;
+    border-radius: 40px;
+    font-family: 'Montserrat';
+    font-weight: 300;  
+    }    /* Rédigez vos propriétés CSS ici */
+
+#bop {
+    font-family: 'Montserrat';
+    color: white;
+}
+    
+.form-control{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px auto;
+    border:solid 1px #ccc;
+    border-radius: 40px;
+    border-color: #000;
+    color: #fff;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  font-family: 'Montserrat';
+  font-weight: 300;  
+}
+
+
+#question {
+font-family: 'Montserrat';
+ font-weight: bold;
+  margin-top: 30px;
+}
+
+#register{
+font-family: 'Montserrat'; font-weight: bold; font-size:15px; color: rgb(255,0,0); text-decoration: none;
+}
+
+#icon_fb{
+margin-top: 20px; margin-bottom: 20px; border-radius: 5px;
+}
+
+#cgu{
+   font: inherit ;
+   font-family: 'Montserrat'; 
+   font-weight: bold; 
+   margin:10px;
+  font-size: 10px; 
+  color: #fff;
+}
