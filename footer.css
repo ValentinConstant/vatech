@@ -1,0 +1,30 @@
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    }
+    @media only screen and (max-device-width: 480px){
+    .navbar {
+    position: fixed;
+     }
+    }
+    .navbar a {
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    }
+    .navbar a:hover {
+   
+    color: black;   
+    }
+    .navbar a.active {
+    
+    color: white;
+    }
+    #icon_navbar{
+        height:50px;
+        width:50px;
+        margin: 0 30 0;
+    }
